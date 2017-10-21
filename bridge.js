@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const fs = require('fs');
-const Telegraf = require('telegraf')
+const Telegraf = require('telegraf');
 
 /*
 TODO: 
@@ -11,7 +11,7 @@ TODO:
 const BOT_NAME = "Bridge";
 var isConnected = false;
 
-init()
+init();
 
 function init() {
 	const DISCORD_TOKEN = read_token('tokens.config', 'discord');
@@ -30,7 +30,7 @@ function init() {
 		console.log("Telegram -> Discord: " + user + ": " + msg);
 		discord_client.channels.get(DISCORD_CHAT_ID).send(user + ": " + msg);
 	});
-	telegram_client.startPolling()
+	telegram_client.startPolling();
 	
 	discord_client.on("ready", () => {
 	  console.log("Bot is running");
