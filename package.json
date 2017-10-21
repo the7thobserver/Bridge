@@ -1,0 +1,17 @@
+{
+  "name": "Bridge",
+  "version": "0.0.1",
+  "description": "",
+  "main": "bridge.js",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "telegraf": "^3.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jared",
+  "license": "GNU GENERAL PUBLIC LICENSE"
+}
