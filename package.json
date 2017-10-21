@@ -5,14 +5,13 @@
   "main": "bridge.js",
   "dependencies": {
     "discord.js": "^11.2.1",
-    "telegraf": "^3.14.0",
-    "jshint": "^2.6.0"
+    "telegraf": "^3.14.0"
   },
   "devDependencies": {
     "jshint": "^2.9.5"
   },
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint hello.js"
+    "test": "./node_modules/jshint/bin/jshint bridge.js"
   },
   "keywords": [],
   "author": "Jared",
